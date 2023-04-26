@@ -3,6 +3,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import CategoryFilter from "../components/CategoryFilter";
 import App from "../components/App";
 import { CATEGORIES } from "../data";
+import TaskList from '../components/TaskList';
 
 test("displays a button for each category", () => {
   render(<CategoryFilter categories={CATEGORIES} />);

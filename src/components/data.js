@@ -2,31 +2,38 @@ export const CATEGORIES = ["All", "Code", "Food", "Money", "Misc"];
 
 export const TASKS = [
   {
-    text: "Buy rice",
+    id: 1,
+    title: "Buy rice",
     category: "Food",
   },
   {
-    text: "Save a tenner",
+    id: 2,
+    title: "Save a tenner",
     category: "Money",
   },
   {
-    text: "Build a todo app",
+    id: 3,
+    title: "Build a todo app",
     category: "Code",
   },
   {
-    text: "Build todo API",
+    id: 4,
+    title: "Build todo API",
     category: "Code",
   },
   {
-    text: "Get an ISA",
+    id: 5,
+    title: "Get an ISA",
     category: "Money",
   },
   {
-    text: "Cook rice",
+    id: 6,
+    title: "Cook rice",
     category: "Food",
   },
   {
-    text: "Tidy house",
+    id: 7,
+    title: "Tidy house",
     category: "Misc",
   },
 ];
